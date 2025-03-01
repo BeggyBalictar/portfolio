@@ -11,9 +11,9 @@ body {
     justify-content: center;
     align-items: center; 
     height: 100vh; 
-    background-color: white;
+    background-color: plum;
     color: black;
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 
