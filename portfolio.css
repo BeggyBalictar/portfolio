@@ -53,36 +53,3 @@ button:hover {
     margin-bottom: 15px;
 }
 
-/* Top Navigation Bar Styling */
-.navbar {
-    background-color: black;
-    padding: 10px;
-    position: fixed; /* Sticks the navbar to the top */
-    top: 0;
-    width: 100%; /* Full width */
-    text-align: center;
-}
-
-.navbar ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Space between links */
-}
-
-.navbar li {
-    display: inline;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-
-.navbar a:hover {
-    color: yellow;
-}
