@@ -53,3 +53,7 @@ button:hover {
     margin-bottom: 15px;
 }
 
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
