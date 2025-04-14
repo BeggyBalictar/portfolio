@@ -36,11 +36,14 @@
   
   /* Logo on the left */
   .logo {
-    font-size: 22px;
-    font-style: italic;
-    font-family: 'Courier New', monospace;
     text-decoration: none;
-    color: black;
+    display: inline-block;
+  }
+  
+  .logo-img {
+    height: 40px; /* adjust size */
+    width: auto;
+    display: block; /* removes bottom gap */
   }
   
   /* Navigation links on the right */
