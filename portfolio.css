@@ -1,63 +1,77 @@
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-    position: fixed;
-    background-color: rgb(241, 245, 24);
-    top: 0;
-    left: 0;
-    width: 100%;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.topnav a {
-    float: left;
-    color: #111010;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    align-content: center;
-  }
-  
-  .topnav a:hover {
-    background-color: #090909;
-    color: rgb(255, 255, 255);
-  }
-  
-  .topnav a.active {
-    background-color:  rgb(218, 219, 143);
-    color: white;
-  }
-
+/* Reset default spacing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-   /* Full-page styling */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    height: 100vh; 
-    background-color: plum;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-
-   /* Centered content */
-.container {
+  }
+  
+  /* Overall page styling */
+  body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px; /* Space between elements */
-}
-
-   /* Style for buttons */
-button {
+    height: 100vh;
+    background-color: plum;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 80px; /* space below fixed nav */
+  }
+  
+  /* Navigation bar */
+  .topnav {
+    background-color: rgb(241, 245, 24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Logo on the left */
+  .logo {
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Courier New', monospace;
+  }
+  
+  /* Navigation links on the right */
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  
+  .nav-links a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .nav-links a.active {
+    background-color: #4c8ef7;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Centered content container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* Buttons */
+  button {
     background-color: black;
     color: white;
     border: none;
@@ -66,20 +80,19 @@ button {
     cursor: pointer;
     border-radius: 5px;
     transition: 0.3s;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     background-color: yellow;
     color: black;
-}
-    /*Style for Picture */
-.profile-pic {
-
+  }
+  
+  /* Profile picture */
+  .profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid white;
     margin-bottom: 15px;
-}
-
+  }
