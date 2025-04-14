@@ -183,3 +183,7 @@
       transform: translateY(-2000px);
     }
   }
+
+  body {
+    background-color: #000; /* or transparent */
+  }
