@@ -105,7 +105,6 @@
   body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #0d1d31, #2d3246); 
     overflow: hidden;
     height: 100vh;
   }
@@ -136,7 +135,7 @@
       background-position: 0 100vh, 0 150vh, 0 120vh;
     }
   }
-  
+
   .layer1 {
     animation-duration: 20s;
     opacity: 0.8;
