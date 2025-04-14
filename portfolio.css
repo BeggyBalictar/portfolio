@@ -1,105 +1,72 @@
-/* Reset default spacing */
-* {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Overall page styling */
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    background-color: plum;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    padding-top: 80px; /* space below fixed nav */
+    background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
   }
   
-  /* Navigation bar */
-  .topnav {
-    background-color: rgb(241, 245, 24);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+  .firefly {
     position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 0.4vw;
+    height: 0.4vw;
+    margin: -0.2vw 0 0 9.8vw;
+    animation: move 20s ease-in-out infinite alternate;
+    pointer-events: none;
+  }
+  
+  .firefly::before,
+  .firefly::after {
+    content: '';
+    position: absolute;
     width: 100%;
-    top: 0;
-    left: 0;
-    font-family: 'Times New Roman', Times, serif;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Logo on the left */
-  .logo {
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  .logo-img {
-    height: 40px; /* adjust size */
-    width: auto;
-    display: block; /* removes bottom gap */
-  }
-  
-  /* Navigation links on the right */
-  .nav-links a {
-    text-decoration: none;
-    color: black;
-    padding: 10px 15px;
-    font-size: 16px;
-  }
-  
-  .nav-links a:hover {
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-  }
-  
-  .nav-links a.active {
-    background-color: #4c8ef7;
-    color: white;
-    border-radius: 5px;
-  }
-  
-  /* Centered content container */
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-  }
-  
-  /* Buttons */
-  button {
-    background-color: black;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: 0.3s;
-  }
-  
-  button:hover {
-    background-color: yellow;
-    color: black;
-  }
-  
-  /* Profile picture */
-  .profile-pic {
-    width: 150px;
-    height: 150px;
+    height: 100%;
     border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid white;
-    margin-bottom: 15px;
+    transform-origin: -10vw;
   }
-
+  
+  .firefly::before {
+    background: black;
+    opacity: 0.4;
+    animation: drift 12s ease-in-out infinite alternate;
+  }
+  
+  .firefly::after {
+    background: white;
+    opacity: 0;
+    box-shadow: 0 0 0vw 0vw yellow;
+    animation: drift 12s ease-in-out infinite alternate, flash 5s ease-in-out infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(-40vw) translateY(-30vh) scale(0.8);
+    }
+    50% {
+      transform: translateX(20vw) translateY(40vh) scale(1);
+    }
+    100% {
+      transform: translateX(-10vw) translateY(-10vh) scale(0.9);
+    }
+  }
+  
+  @keyframes drift {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @keyframes flash {
+    0%, 30%, 100% {
+      opacity: 0;
+      box-shadow: 0 0 0vw 0vw yellow;
+    }
+    5% {
+      opacity: 1;
+      box-shadow: 0 0 2vw 0.4vw yellow;
+    }
+  }
   
