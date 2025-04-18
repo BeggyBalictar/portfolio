@@ -101,3 +101,56 @@
     border: 3px solid white;
     margin-bottom: 15px;
   }
+
+
+  body {
+    background: white;
+    color: black;
+    transition: 0.3s;
+    font-family: sans-serif;
+  }
+  
+  /* Switch styling */
+  .switch {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  /* Hide the checkbox */
+  .switch input {
+    display: none;
+  }
+  
+  /* Custom label as toggle */
+  .slider {
+    width: 50px;
+    height: 25px;
+    background: #ccc;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .slider::before {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  
+  /* Dark theme using :has() */
+  body:has(#theme-toggle:checked) {
+    background: #121212;
+    color: white;
+  }
+  
+  /* Move slider thumb when checked */
+  #theme-toggle:checked + .slider::before {
+    transform: translateX(25px);
+  }
