@@ -114,8 +114,8 @@
   
   .tech-card {
     background-color: #4b2e5d;
-    border-radius: 15px;
-    padding: 20px;
+    border-radius: 20px;
+    padding: 25px;
     color: white;
     text-align: center;
     transition: transform 0.3s, background-color 0.3s;
