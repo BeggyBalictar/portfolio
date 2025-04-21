@@ -20,43 +20,6 @@
     position: relative;
     text-align: center;
   }
-  
-  /* Star layers */
-  #stars, #stars2, #stars3 {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-image: url('star.png');
-    background-repeat: repeat;
-    background-size: 1px 1px; /* Spread out stars */
-    z-index: 0;
-    pointer-events: none;
-    opacity: 0.3;
-  }
-  
-
-  #stars {
-    animation: moveStars 60s linear infinite;
-  }
-  #stars2 {
-    animation: moveStars 120s linear infinite;
-    background-size: 80px auto;
-    opacity: 0.2;
-  }
-  #stars3 {
-    animation: moveStars 180s linear infinite;
-    background-size: 60px auto;
-    opacity: 0.1;
-  }
-  
-  @keyframes moveStars {
-    from {
-      transform: translateY(100%);
-    }
-    to {
-      transform: translateY(-100%);
-    }
-  }
 
   /* Navigation bar */
   .topnav {
