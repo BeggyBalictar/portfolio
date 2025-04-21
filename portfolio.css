@@ -28,7 +28,7 @@
     height: 100%;
     background-image: url('star.png');
     background-repeat: repeat;
-    background-size: 150px 150px; /* Spread out stars */
+    background-size: 50px 50px; /* Spread out stars */
     z-index: 0;
     pointer-events: none;
     opacity: 0.3;
