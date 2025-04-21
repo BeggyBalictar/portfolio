@@ -21,15 +21,6 @@
     text-align: center;
   }
   
- /* Star layers */
-#stars, #stars2, #stars3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
 
 #stars, #stars2, #stars3 {
   position: absolute;
