@@ -28,21 +28,24 @@
   left: 0;
   width: 100%;
   height: 100%;
+  background-image: url('star.png');
   background-repeat: repeat;
+  background-size: 40px;
+  background-position: center bottom;
   z-index: 0;
 }
 
 #stars {
-  background-image: url('star.png');
   animation: moveStars 50s linear infinite;
+  opacity: 0.3;
 }
 #stars2 {
-  background-image: url('star.png');
   animation: moveStars 100s linear infinite;
+  opacity: 0.2;
 }
 #stars3 {
-  background-image: url('star.png');
   animation: moveStars 150s linear infinite;
+  opacity: 0.2;
 }
 
 @keyframes moveStars {
