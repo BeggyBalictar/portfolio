@@ -44,19 +44,19 @@
 /* Generate random stars using box-shadow */
 #stars {
   background: transparent;
-  box-shadow: 1px 2px #fff, 8px 6px #fff, 4px 1px #fff,
-              12px 3px #fff, 3px 9px #fff, 7px 2px #fff;
+  box-shadow: 1000px 200px #fff, 800px 600px #fff, 400px 100px #fff,
+              1200px 300px #fff, 300px 900px #fff, 700px 200px #fff;
   animation: animStar 50s linear infinite;
 }
 #stars2 {
   background: transparent;
-  box-shadow: 5px 3px #fff, 9px 8px #fff, 6px 5px #fff,
-              2px 7px #fff, 11px 4px #fff;
+  box-shadow: 500px 300px #fff, 900px 800px #fff, 600px 500px #fff,
+              200px 700px #fff, 1100px 400px #fff;
   animation: animStar 100s linear infinite;
 }
 #stars3 {
   background: transparent;
-  box-shadow: 3px 1px #fff, 1px 9px #fff, 75px 4px #fff;
+  box-shadow: 300px 100px #fff, 1000px 900px #fff, 750px 400px #fff;
   animation: animStar 150s linear infinite;
 }
 
