@@ -27,12 +27,13 @@
     width: 100%;
     height: 100%;
     background-image: url('star.png');
-    background-repeat: repeat-y;
-    background-size: 100px auto;
+    background-repeat: repeat;
+    background-size: 150px 150px; /* Spread out stars */
     z-index: 0;
     pointer-events: none;
     opacity: 0.3;
   }
+  
 
   #stars {
     animation: moveStars 60s linear infinite;
