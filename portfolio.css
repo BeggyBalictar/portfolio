@@ -12,13 +12,49 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: plum;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
     padding-top: 80px; /* space below fixed nav */
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
   }
   
+  /* Star layers */
+#stars, #stars2, #stars3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat;
+  z-index: 0;
+}
+
+#stars {
+  background-image: url('https://raw.githubusercontent.com/lokesh-coder/stars-bg-css/master/stars1.png');
+  animation: moveStars 50s linear infinite;
+}
+#stars2 {
+  background-image: url('https://raw.githubusercontent.com/lokesh-coder/stars-bg-css/master/stars2.png');
+  animation: moveStars 100s linear infinite;
+}
+#stars3 {
+  background-image: url('https://raw.githubusercontent.com/lokesh-coder/stars-bg-css/master/stars3.png');
+  animation: moveStars 150s linear infinite;
+}
+
+@keyframes moveStars {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-1000px);
+  }
+}
+
+
   /* Navigation bar */
   .topnav {
     background-color: rgb(241, 245, 24);
@@ -68,11 +104,14 @@
   
   /* Centered content container */
   .container {
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    height: 100%;
   }
   
   /* Buttons */
