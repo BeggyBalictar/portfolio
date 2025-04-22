@@ -118,7 +118,7 @@
   }
   
   .tech-card {
-    background-color: #4b2e5d;
+    background-color: #026a81;
     border-radius: 15px;
     padding: 20px;
     color: white;
@@ -131,7 +131,7 @@
   
   .tech-card:hover {
     transform: scale(1.1);
-    background-color: #6a4180;
+    background-color: #06768d;
   }
   
   .tech-card img {
