@@ -154,17 +154,17 @@
     animation: floatUp linear infinite;
   }
   
-  @keyframes driftSide {
+  @keyframes fallDown {
     0% {
-      transform: translateX(0);
+      transform: translateY(0);
       opacity: 0.8;
     }
     100% {
-      transform: translateX(100vw);
+      transform: translateY(100vh);
       opacity: 0;
     }
   }
   
   .star {
-    animation: driftSide linear infinite;
+    animation: fallDown linear infinite;
   }
