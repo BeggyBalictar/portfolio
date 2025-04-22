@@ -154,21 +154,17 @@
     animation: floatUp linear infinite;
   }
   
-  @keyframes twinkleFloat {
+  @keyframes driftSide {
     0% {
-      transform: translateY(0) scale(1);
-      opacity: 0.5;
-    }
-    50% {
-      transform: translateY(-50vh) scale(1.2);
-      opacity: 1;
+      transform: translateX(0);
+      opacity: 0.8;
     }
     100% {
-      transform: translateY(-100vh) scale(0.8);
+      transform: translateX(100vw);
       opacity: 0;
     }
   }
   
   .star {
-    animation: twinkleFloat ease-in-out infinite;
+    animation: driftSide linear infinite;
   }
