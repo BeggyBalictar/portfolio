@@ -147,6 +147,7 @@
 
   .star {
     position: absolute;
+    bottom: -20;
     background-color: white;
     border-radius: 50%;
     opacity: 0.8;
