@@ -148,21 +148,22 @@
   .star {
     position: absolute;
     bottom: 0;
-    background: white;
+    background-color: white;
     border-radius: 50%;
-    opacity: 0.8;
-    z-index: 0;
-    box-shadow: 0 0 6px white;
+    opacity: 0.9;
+    box-shadow: 0 0 8px white;
     animation: floatUp linear infinite;
+    z-index: 0;
   }
   
   @keyframes floatUp {
-    from {
+    0% {
       transform: translateY(0);
       opacity: 1;
     }
-    to {
+    100% {
       transform: translateY(-120vh);
       opacity: 0;
     }
   }
+  
