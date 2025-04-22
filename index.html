@@ -8,11 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 </head>
 <body>
-
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-
+    
     <div class="container">
         <img src="Profile.jpg" alt="profile picture" class="profile-pic">
         <h1>Beggy Balictar</h1>
@@ -23,6 +19,29 @@
             <button class="center" onclick="location.href='contact.html'">CONTACT INFO</button>
             
     </div>
+
+    <script>
+        const starCount = 150;
+      
+        for (let i = 0; i < starCount; i++) {
+          const star = document.createElement("div");
+          star.className = "star";
+          
+          // Random position
+          star.style.top = Math.random() * 100 + "vh";
+          star.style.left = Math.random() * 100 + "vw";
+      
+          // Random size
+          const size = Math.random() * 2 + 1;
+          star.style.width = size + "px";
+          star.style.height = size + "px";
+      
+          // Animation delay
+          star.style.animationDelay = Math.random() * 10 + "s";
+      
+          document.body.appendChild(star);
+        }
+      </script>
 
 </body>
 </html>
