@@ -151,6 +151,7 @@
     border-radius: 50%;
     opacity: 0.8;
     box-shadow: 0 0 4px white;
+    animation: floatUp linear infinite;
     z-index: 0;
   }
   
