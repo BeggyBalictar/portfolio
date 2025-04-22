@@ -154,17 +154,7 @@
     animation: floatUp linear infinite;
   }
   
-  @keyframes fallDown {
-    0% {
-      transform: translateY(0);
-      opacity: 0.8;
-    }
-    100% {
-      transform: translateY(100vh);
-      opacity: 0;
-    }
-  }
-  
-  .star {
-    animation: fallDown linear infinite;
+  @keyframes floatUp {
+    0% { transform: translateY(0); opacity: 0.8; }
+    100% { transform: translateY(-100vh); opacity: 0; }
   }
