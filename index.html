@@ -27,8 +27,7 @@
           const star = document.createElement("div");
           star.className = "star";
       
-          // Random position all over the screen
-          star.style.top = Math.random() * 100 + "vh";
+          // Random horizontal position
           star.style.left = Math.random() * 100 + "vw";
       
           // Random size between 1px and 4px
@@ -36,9 +35,9 @@
           star.style.width = size + "px";
           star.style.height = size + "px";
       
-          // Random animation speed and delay
-          star.style.animationDuration = 10 + Math.random() * 20 + "s";
-          star.style.animationDelay = Math.random() * 10 + "s";
+          // Random animation duration and delay
+          star.style.animationDuration = (10 + Math.random() * 20) + "s";
+          star.style.animationDelay = Math.random() * 20 + "s";
       
           document.body.appendChild(star);
         }

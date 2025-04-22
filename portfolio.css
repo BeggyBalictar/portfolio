@@ -147,6 +147,7 @@
 
   .star {
     position: absolute;
+    bottom: 0;
     background: white;
     border-radius: 50%;
     opacity: 0.8;
@@ -156,12 +157,12 @@
   }
   
   @keyframes floatUp {
-    0% {
+    from {
       transform: translateY(0);
-      opacity: 0.8;
+      opacity: 1;
     }
-    100% {
-      transform: translateY(-120vh); /* go off the top */
+    to {
+      transform: translateY(-110vh);
       opacity: 0;
     }
   }
