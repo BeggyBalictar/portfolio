@@ -23,7 +23,7 @@
 
   /* Navigation bar */
   .topnav {
-    background-color: rgb(241, 245, 24);
+    background-color: #F5F5DC;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,7 +93,7 @@
   }
   
   button:hover {
-    background-color: yellow;
+    background-color: #FFF8DC;
     color: black;
   }
   
