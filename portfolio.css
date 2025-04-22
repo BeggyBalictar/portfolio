@@ -151,16 +151,17 @@
     border-radius: 50%;
     opacity: 0.8;
     z-index: 0;
-    animation: moveStar linear infinite;
+    animation: floatUp linear infinite;
   }
   
-  @keyframes moveStar {
+  @keyframes floatUp {
     0% {
-      transform: translateY(100vh);
+      transform: translateY(0);
       opacity: 0.8;
     }
     100% {
-      transform: translateY(-10vh);
-      opacity: 0.2;
+      transform: translateY(-100vh);
+      opacity: 0;
     }
   }
+  
