@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 </head>
 <body>
-    
+
     <div class="container">
         <img src="Profile.jpg" alt="profile picture" class="profile-pic">
         <h1>Beggy Balictar</h1>
@@ -26,18 +26,21 @@
         for (let i = 0; i < starCount; i++) {
           const star = document.createElement("div");
           star.className = "star";
-          
-          // Random position
-          star.style.top = Math.random() * 100 + "vh";
+      
+          // Random horizontal position (left to right)
           star.style.left = Math.random() * 100 + "vw";
+      
+          // Start stars below the screen
+          star.style.top = "100vh";
       
           // Random size
           const size = Math.random() * 2 + 1;
           star.style.width = size + "px";
           star.style.height = size + "px";
       
-          // Animation delay
-          star.style.animationDelay = Math.random() * 10 + "s";
+          // Animation duration and delay
+          star.style.animationDuration = 10 + Math.random() * 20 + "s";
+          star.style.animationDelay = Math.random() * 5 + "s";
       
           document.body.appendChild(star);
         }
