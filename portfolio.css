@@ -147,11 +147,11 @@
 
   .star {
     position: absolute;
-    bottom: -20;
+    bottom: 0;
     background-color: white;
     border-radius: 50%;
-    opacity: 0.8;
-    box-shadow: 0 0 4px white;
+    opacity: 0.9;
+    box-shadow: 0 0 8px white;
     animation: floatUp linear infinite;
     z-index: 0;
   }
