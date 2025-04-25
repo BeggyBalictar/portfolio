@@ -194,17 +194,16 @@
   .certi-card {
     background-color: #003747;
     border-radius: 15px;
-    padding: 20px;
+    overflow: hidden;
     transition: transform 0.3s, background-color 0.3s;
-    width: 130px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0; /* No padding so the image fills */
   }
   
   .certi-img {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the box nicely */
   }
-  
