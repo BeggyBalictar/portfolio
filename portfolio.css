@@ -21,9 +21,11 @@
     text-align: center;
   }
 
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
   .paragraph {
     margin-top: 25px; /* Adds space top of the paragraph */
     line-height: 1.6; /* Adjusts the spacing between lines */
+    font-family: 'Merriweather', serif;
 }
 
   /* Navigation bar */
