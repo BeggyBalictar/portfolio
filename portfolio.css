@@ -21,6 +21,12 @@
     text-align: center;
   }
 
+  .paragraph {
+    margin-top: 30px; /* Adds space top of the paragraph */
+    line-height: 1.6; /* Adjusts the spacing between lines */
+    padding: 10px; /* Adds space inside the paragraph block */
+}
+
   /* Navigation bar */
   .topnav {
     background-color: #003747;
@@ -168,11 +174,4 @@
       opacity: 0;
     }
   }
-
-  .paragraph {
-    margin-top: 30px; /* Adds space top of the paragraph */
-    line-height: 1.6; /* Adjusts the spacing between lines */
-    padding: 10px; /* Adds space inside the paragraph block */
-}
-
   
