@@ -25,9 +25,10 @@
     margin-top: 25px; /* Adds space top of the paragraph */
     line-height: 1.8; /* Adjusts the spacing between lines */
     font-family: "Montagu Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: large;
 }
 
   /* Navigation bar */
