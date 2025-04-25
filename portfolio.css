@@ -24,10 +24,10 @@
   .paragraph {
     margin-top: 25px; /* Adds space top of the paragraph */
     line-height: 1.8; /* Adjusts the spacing between lines */
-      font-family: "Bree Serif", serif;
-      font-weight: 400;
-      font-style: normal;
-      font-size: large;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
   /* Navigation bar */
