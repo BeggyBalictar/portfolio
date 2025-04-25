@@ -22,9 +22,8 @@
   }
 
   .paragraph {
-    margin-top: 30px; /* Adds space top of the paragraph */
+    margin-top: 25px; /* Adds space top of the paragraph */
     line-height: 1.6; /* Adjusts the spacing between lines */
-    padding: 10px; /* Adds space inside the paragraph block */
 }
 
   /* Navigation bar */
