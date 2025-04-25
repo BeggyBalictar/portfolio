@@ -183,9 +183,9 @@
 
   .certi {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
     gap: 30px;
-    padding: 0 50px;
+    padding: 50px 20px;;
     justify-items: center;
     width: 100%;
   }
