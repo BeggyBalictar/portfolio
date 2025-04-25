@@ -183,10 +183,11 @@
 
   .certi {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
-    padding: 50px 20px;;
+    margin: 40px 20px;
     justify-items: center;
+    width: 100%;
   }
   
   .certi-card {
@@ -197,7 +198,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 500px;
     transition: transform 0.3s;
-    width: 100%;
   }
   
   .certi-card:hover {
