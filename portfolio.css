@@ -26,6 +26,8 @@
     margin-top: 25px; /* Adds space top of the paragraph */
     line-height: 1.8; /* Adjusts the spacing between lines */
     font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: medium;
 }
 
   /* Navigation bar */
