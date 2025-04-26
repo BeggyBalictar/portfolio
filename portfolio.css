@@ -216,5 +216,5 @@
 
   .certi-card:hover .certi-img {
     transform: scale(1.15);
-    border: 100px;
+    border: 200px;
   }
