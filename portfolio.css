@@ -49,6 +49,7 @@
   .logo {
     text-decoration: none;
     display: inline-block;
+    padding-left: 20px;
   }
   
   .logo-img {
