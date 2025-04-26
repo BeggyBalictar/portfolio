@@ -96,6 +96,7 @@
     color: white;
     border: none;
     padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
@@ -105,9 +106,6 @@
   button:hover {
     background-color: #FFF8DC;
     color: #06768d;
-  }
-  button::target-text {
-    font-family: 'Montserrat', sans-serif;
   }
   
   /* Profile picture */
