@@ -215,6 +215,6 @@
   }
 
   .certi-card:hover .certi-img {
-    transform: scale(1.1);
-    border-radius: 20px;
+    transform: scale(1.03);
+    border-radius: 50px;
   }
