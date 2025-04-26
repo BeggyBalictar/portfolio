@@ -24,10 +24,8 @@
   .paragraph {
     margin-top: 25px; /* Adds space top of the paragraph */
     line-height: 1.8; /* Adjusts the spacing between lines */
-    font-family: "Montagu Slab", serif;
-    font-optical-sizing: auto;
+    font-family: 'Poppins', sans-serif;
     font-weight: weight;
-    font-style: normal;
     font-size: 25px;
     padding-left: 25px;
     padding-right: 25px;
