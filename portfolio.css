@@ -199,10 +199,11 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 500px;
     overflow: hidden;
+    transition: transform 0.3s ease, background-color 0.3s ease;
   }
   
-  .certi-card:hover .certi-img {
-    transform: scale(1.1);
+  .certi-card:hover {
+    transform: scale(1.05);
     background-color: #06768d
   }
   
@@ -210,5 +211,10 @@
     width: 100%;
     height: auto;
     border-radius: 15px;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, border-raduis 0.5s ease;
+  }
+
+  .certi-card:hover .certi-img {
+    transform: scale(1.1);
+    border-radius: 20px;
   }
