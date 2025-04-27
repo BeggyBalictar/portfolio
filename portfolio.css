@@ -271,6 +271,5 @@
     flex-direction: column;
     align-items: center;
     padding: 50px 20px;
-    background: #fff4cc; /* Light background only here */
     overflow-y: auto; /* scroll inside contact page */
   }
