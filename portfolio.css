@@ -76,6 +76,7 @@
     background-color: #06768d;
     color: white;
     border-radius: 7px;
+    transform: none;
   }
   
   /* Centered content container */
