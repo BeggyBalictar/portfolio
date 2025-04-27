@@ -80,24 +80,26 @@
   
   /* Centered content container */
   .container {
-    position: relative;
-    z-index: 1;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-    gap: 50px;
+    justify-content: center;
+    height: 100vh;
     padding: 20px;
+    gap: 50px; /* Space between left and right sections */
   }
-
+  
   .left-section {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
+  
   .right-section {
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
   }
   
   /* Buttons */
@@ -105,17 +107,23 @@
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
+  }
+  
+  button {
+    background-color: transparent;
+    border: 2px solid #31b3da;
+    color: white;
+    padding: 10px 20px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 18px;
-    cursor: pointer;
     border-radius: 20px;
+    cursor: pointer;
     transition: 0.3s;
   }
   
-  .button-group:hover {
+  button:hover {
     background-color: #06768d;
     color: #003747;
   }
