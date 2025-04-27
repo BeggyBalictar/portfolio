@@ -136,8 +136,8 @@
   button:hover {
     background-color: transparent;
     color: white;
-    text-overflow: clip;
-  }
+    text-decoration-line: underline; 
+    }
   
   /* Profile picture */
   .profile-pic {
