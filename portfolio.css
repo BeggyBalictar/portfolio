@@ -96,7 +96,7 @@
   .right-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     margin-bottom: 30px;
   }
 
