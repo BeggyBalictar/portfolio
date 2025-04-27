@@ -67,9 +67,7 @@
   }
   
   .nav-links a:hover {
-    background-color: #06768d;
-    color: black;
-    border-radius: 7px;
+    transform: translateY(-8px);
   }
   
   .nav-links a.active {
