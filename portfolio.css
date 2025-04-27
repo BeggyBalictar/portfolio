@@ -264,12 +264,3 @@
     transform: scale(1.03);
     border: 300px;
   }
-
-  #contact-page {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 20px;
-    overflow-y: auto; /* scroll inside contact page */
-  }
