@@ -141,7 +141,7 @@
     transform: translateY(-8px); /* move up 8px on hover */
     box-shadow: 0 0 25px #31b3da, 0 0 50px #31b3da, 0 0 75px #31b3da;
     transition: all 0.5s ease; /* smooth animation */ 
-    }
+  }
   
   /* Profile picture */
   .profile-pic {
@@ -154,9 +154,9 @@
   }
   
   .profile-pic:hover {
-    background-color: transparent;
-    color: white;
-    text-decoration-color: aqua;
+    transform: scale(1.08); /* zoom in a little */
+    box-shadow: 0 0 25px #31b3da, 0 0 50px #31b3da, 0 0 75px #31b3da; /* glowing effect */
+    border-color: #31b3da; /* optional: change border color on hover */
   }
 
   .tech-stack {
