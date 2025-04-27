@@ -154,7 +154,9 @@
   }
   
   .profile-pic:hover {
-    background-color: #090a0f;
+    background-color: transparent;
+    color: white;
+    text-decoration-color: aqua;
   }
 
   .tech-stack {
