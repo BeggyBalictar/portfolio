@@ -135,8 +135,10 @@
   button:hover {
     background-color: transparent;
     color: white;
-    text-underline-position: below;
-    text-decoration-color: aqua; 
+    text-decoration-color: aqua;
+    transform: translateY(-8px); /* move up 8px on hover */
+    box-shadow: 0 0 25px #31b3da, 0 0 50px #31b3da, 0 0 75px #31b3da;
+    transition: all 0.4s ease; /* smooth animation */ 
     }
   
   /* Profile picture */
