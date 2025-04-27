@@ -132,23 +132,7 @@
     cursor: pointer;
     transition: 0.3s;
     box-shadow: 0 0 15px #06768d, 0 0 30px #06768d, 0 0 45px #003747; /* glowing */;
-    animation: breathing 3s ease-in-out infinite; /* breathing */
   }
-
-  @keyframes breathing {
-    0% {
-        box-shadow: 0 0 15px #06768d, 0 0 30px #06768d, 0 0 45px #003747;
-        transform: scale(1);
-    }
-    50% {
-        box-shadow: 0 0 25px #06768d, 0 0 50px #06768d, 0 0 75px #003747;
-        transform: scale(1.02);
-    }
-    100% {
-        box-shadow: 0 0 15px #06768d, 0 0 30px #06768d, 0 0 45px #003747;
-        transform: scale(1);
-    }
-}
   
   button:hover {
     background-color: transparent;
