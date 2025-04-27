@@ -129,6 +129,8 @@
     border-radius: 20px;
     cursor: pointer;
     transition: 0.3s;
+    box-shadow: 0 0 15px #31b3da, 0 0 30px #31b3da, 0 0 45px #31b3da; /* glowing */
+    animation: breathing 3s ease-in-out infinite; /* breathing */
   }
   
   button:hover {
