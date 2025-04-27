@@ -97,6 +97,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 30px;
   }
   
   /* Buttons */
@@ -110,7 +111,7 @@
   
   button {
     background-color: transparent;
-    margin-top: 50px;
+    margin-top: 70px;
     border: 2px solid #31b3da;
     color: white;
     padding: 10px 20px;
