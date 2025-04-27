@@ -44,6 +44,11 @@
     font-family: 'Poppins', sans-serif;
     box-shadow: 0 2px 5px #065465;
   }
+
+  h1 {
+    font-family: "Bree Serif", serif;
+    font-size: 20px;
+  }
   
   /* Logo on the left */
   .logo {
