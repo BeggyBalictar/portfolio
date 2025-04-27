@@ -81,6 +81,7 @@
   /* Centered content container */
   .container {
     display: flex;
+    z-index: 2;
     align-items: center;
     justify-content: center;
     height: 100vh;
