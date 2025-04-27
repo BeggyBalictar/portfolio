@@ -221,7 +221,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
     margin: 40px 20px;
-    padding: 25px 70px;
+    padding: 20px 70px;
     justify-items: center;
     width: 100%;
     z-index: 1;
@@ -230,7 +230,7 @@
   .certi-card {
     background-color: #003747;
     border-radius: 20px;
-    padding: 18px;
+    padding: 15px;
     margin-top: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 500px;
