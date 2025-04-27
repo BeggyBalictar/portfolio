@@ -42,6 +42,7 @@
     top: 0;
     left: 0;
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
     box-shadow: 0 2px 5px #065465;
   }
 
@@ -68,7 +69,6 @@
     text-decoration: none;
     color: white;
     padding: 10px 15px;
-    font-size: 20px;
     display: inline-block; /* Important: makes transform work */
     transition: transform 0.3s ease, color 0.3s ease; /* smooth hover */
   }
