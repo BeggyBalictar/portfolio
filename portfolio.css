@@ -90,7 +90,7 @@
   }
   
   .left-section {
-    padding: 15px;
+    flex-shrink: 0;
   }
   
   .right-section {
