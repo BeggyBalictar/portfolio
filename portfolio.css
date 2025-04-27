@@ -152,6 +152,10 @@
     border: 3px solid black;
     margin-bottom: 15px;
   }
+  
+  .profile-pic:hover {
+    background-color: #090a0f;
+  }
 
   .tech-stack {
     display: grid;
