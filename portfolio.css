@@ -81,7 +81,7 @@
   /* Centered content container */
   .container {
     display: flex;
-    z-index: 2;
+    z-index: 1;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -118,6 +118,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    z-index: 1;
   }
   
   button {
@@ -161,6 +162,7 @@
     width: 100%;
     max-width: 800px;
     justify-items: center;
+    z-index: 1;
   }
   
   .tech-card {
@@ -223,6 +225,7 @@
     padding: 25px 70px;
     justify-items: center;
     width: 100%;
+    z-index: 1;
   }
   
   .certi-card {
