@@ -160,7 +160,7 @@
   }
   
   .profile-pic:hover {
-    transform: scale(1.08); /* zoom in a little */
+    transform: scale(1.03); /* zoom in a little */
   }
 
   .tech-stack {
