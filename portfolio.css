@@ -136,7 +136,7 @@
   button:hover {
     background-color: transparent;
     color: white;
-    text-decoration-line: underline; 
+    text-decoration-line: underline space #3fbcd5; 
     }
   
   /* Profile picture */
