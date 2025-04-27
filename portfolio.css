@@ -240,7 +240,7 @@
   
   .certi-card:hover {
     transform: scale(1.25);
-    background-color: aqua;
+    background-color: #009dd1;
   }
   
   .certi-img {
