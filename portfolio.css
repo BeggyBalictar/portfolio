@@ -144,7 +144,7 @@
     height: 325px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid black;
+    border: 0 0 15px #31b3da, 0 0 30px #06768d, 0 0 45px #003747;;
     margin-bottom: 15px;
   }
 
