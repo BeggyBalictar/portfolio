@@ -122,7 +122,6 @@
   
   button {
     background-color: transparent;
-    z-index: 1;
     margin-top: 50px;
     border: 2px solid #06768d;
     color: white;
