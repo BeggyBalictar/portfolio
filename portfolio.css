@@ -231,7 +231,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
     margin: 40px 20px;
-    padding: 20px 50px;
+    padding: 10px 70px;
     justify-items: center;
     width: 100%;
     z-index: 1;
