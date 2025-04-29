@@ -204,7 +204,7 @@
   }
 
   .star {
-    position: fixed;
+    position: relative;
     bottom: -30px; /* Start below the screen so not visible */
     width: 4px;
     height: 4px;
