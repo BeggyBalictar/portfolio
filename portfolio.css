@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 100%;
     padding-top: 80px; /* space below fixed nav */
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     color: white;
@@ -205,14 +205,14 @@
 
   .star {
     position: absolute;
-    bottom: -30px;
+    bottom: -20px;
     width: 2px;
-    height: 3px;
+    height: 2px;
     background-color: white;
-    border-radius: 100%;
-    opacity: 0.11;
-    box-shadow: 0 0 11px white;
-    animation: moveUp 9s linear infinite;
+    border-radius: 50%;
+    opacity: 0.9;
+    box-shadow: 0 0 8px white;
+    animation: moveUp 10s linear infinite;
     z-index: 0;
   }
   
