@@ -290,6 +290,10 @@
     box-shadow: 0 0 20px #31b3da, 0 0 40px #31b3da;
 }
 
+.container-form {
+  padding-bottom: 50px;
+}
+
 .contact-form {
   background: #0a0f2c;
   padding: 30px;
