@@ -18,8 +18,7 @@
     font-family: 'Lato', sans-serif;
     position: relative;
     text-align: center;
-    overflow-y: auto;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .paragraph {
