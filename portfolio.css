@@ -211,7 +211,7 @@
     background-color: white;
     border-radius: 50%;
     opacity: 0.8;
-    box-shadow: 0 0 9px white;
+    box-shadow: 0 0 8px white;
     animation: moveUp 10s linear infinite;
     z-index: -1;
   }
