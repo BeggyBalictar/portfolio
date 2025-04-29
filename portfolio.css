@@ -206,7 +206,6 @@
   .star {
     position: absolute;
     bottom: -50px;
-    left: calc(100vw * var(--rand-x)); /* more dynamic placement */
     width: 2px;
     height: 2px;
     background-color: white;
@@ -215,6 +214,7 @@
     box-shadow: 0 0 8px white;
     animation: moveUp 10s linear infinite;
     z-index: 0;
+    overflow: hidden;
   }
   
   @keyframes moveUp {
