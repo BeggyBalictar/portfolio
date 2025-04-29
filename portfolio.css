@@ -214,7 +214,6 @@
     box-shadow: 0 0 7px white;
     animation: moveUp 10s linear infinite;
     z-index: 0;
-    overflow: hidden;
   }
   
   @keyframes moveUp {
