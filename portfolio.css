@@ -292,7 +292,7 @@
 
 .contact-form {
   background: #0a0f2c;
-  padding: 30px 30px 50px 30px; /* Increased bottom padding */
+  padding: 30px 30px 100px 30px; /* Increased bottom padding */
   border: 2px solid #31b3da;
   border-radius: 10px;
   max-width: 600px;
