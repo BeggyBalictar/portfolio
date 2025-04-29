@@ -268,8 +268,7 @@
   }
 
   .social-button {
-    background: #0a0f2c;
-    border: 2px solid #31b3da;
+    background: #003747;
     color: white;
     font-family: 'Poppins', sans-serif;
     padding: 10px 20px;
@@ -280,29 +279,28 @@
     cursor: pointer;
     text-decoration: none;
     transition: all 0.3s ease;
-    box-shadow: 0 0 10px #31b3da, 0 0 20px #31b3da;
+    box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);
     display: inline-block;
     margin-bottom: 30px;
 }
 
 .social-button:hover {
     transform: translateY(-5px);
-    background: #31b3da;
+    background: #003747;
     color: #0a0f2c;
-    box-shadow: 0 0 20px #31b3da, 0 0 40px #31b3da;
+    box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);
 }
 .container-form {
   padding-bottom: 30px;
 }
 
 .contact-form {
-  background: #0a0f2c;
+  background: #003747;
   padding: 30px;
-  border: 2px solid #31b3da;
   border-radius: 10px;
   max-width: 600px;
   margin: 0 auto;
-  box-shadow: 0 0 20px #31b3da;
+  box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);
 }
 
 .contact-form input,
@@ -310,8 +308,7 @@
   width: 100%;
   padding: 15px;
   margin-bottom: 20px;
-  background: #0a0f2c;
-  border: 2px solid #31b3da;
+  background: #003747;
   color: white;
   border-radius: 8px;
   font-size: 16px;
@@ -323,7 +320,7 @@
 }
 
 .contact-form button {
-  background: #31b3da;
+  background: #003747;
   color: #0a0f2c;
   font-weight: bold;
   font-size: 18px;
@@ -339,7 +336,7 @@
   background: white;
   color: #0a0f2c;
   transform: translateY(-5px);
-  box-shadow: 0 0 20px #31b3da, 0 0 40px #31b3da;
+  box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);
 }
 
 .paragraph2 {
