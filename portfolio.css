@@ -223,7 +223,7 @@
     }
     100% {
       transform: translateY(-120vh);
-      opacity: 0.9;
+      opacity: 0;
     }
   }
 
