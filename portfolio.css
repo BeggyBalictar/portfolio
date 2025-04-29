@@ -213,7 +213,7 @@
     opacity: 0.9;
     box-shadow: 0 0 9px white;
     animation: moveUp 10s linear infinite;
-    z-index: -1;
+    z-index: 0;
   }
   
   @keyframes moveUp {
