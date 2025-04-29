@@ -286,6 +286,7 @@
 .social-icon {
   width: 28px;
   height: 28px;
+  margin-top: 5px;
 }
 
 .social-button:hover {
