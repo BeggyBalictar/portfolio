@@ -280,7 +280,7 @@
     transition: all 0.3s ease;
     box-shadow: 0 0 10px #31b3da, 0 0 20px #31b3da;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .social-button:hover {
