@@ -264,3 +264,27 @@
     transform: scale(1.03);
     border: 300px;
   }
+
+  .social-button {
+    background: #0a0f2c;
+    border: 2px solid #31b3da;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #31b3da, 0 0 20px #31b3da;
+    display: inline-block;
+}
+
+.social-button:hover {
+    transform: translateY(-5px);
+    background: #31b3da;
+    color: #0a0f2c;
+    box-shadow: 0 0 20px #31b3da, 0 0 40px #31b3da;
+}
