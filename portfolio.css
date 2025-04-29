@@ -334,8 +334,7 @@
 
 .contact-form button:hover {
   background: white;
-  color: white;
-  transform: translateY(-5px);
+  color: black;
   box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);
 }
 
