@@ -222,7 +222,7 @@
       opacity: 0.8;
     }
     100% {
-      transform: translateY(-120vh);
+      transform: translateY(-130vh);
       opacity: 0;
     }
   }
