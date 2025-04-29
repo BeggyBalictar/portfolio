@@ -19,6 +19,7 @@
     overflow: hidden;
     position: relative;
     text-align: center;
+    overflow-y: auto;
   }
 
   .paragraph {
