@@ -91,7 +91,7 @@
     z-index: 1;
     align-items: center;
     justify-content: center;
-    height: auto;
+    height: 100%;
     padding: 20px;
     gap: 40px; /* Space between left and right sections */
   }
