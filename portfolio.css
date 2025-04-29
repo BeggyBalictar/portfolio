@@ -207,11 +207,11 @@
     position: absolute;
     bottom: -20px;
     width: 2px;
-    height: 2px;
+    height: 3px;
     background-color: white;
     border-radius: 50%;
-    opacity: 0.10;
-    box-shadow: 0 0 8px white;
+    opacity: 0.11;
+    box-shadow: 0 0 9px white;
     animation: moveUp 10s linear infinite;
     z-index: 0;
   }
