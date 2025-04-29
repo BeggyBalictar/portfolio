@@ -287,7 +287,7 @@
 .social-button:hover {
     transform: translateY(-5px);
     background: #003747;
-    color: #0a0f2c;
+    color: white;
     box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);
 }
 .container-form {
@@ -321,7 +321,7 @@
 
 .contact-form button {
   background: #003747;
-  color: #0a0f2c;
+  color: white;
   font-weight: bold;
   font-size: 18px;
   padding: 12px 20px;
@@ -334,7 +334,7 @@
 
 .contact-form button:hover {
   background: white;
-  color: #0a0f2c;
+  color: white;
   transform: translateY(-5px);
   box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);
 }
