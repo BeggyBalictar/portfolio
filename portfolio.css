@@ -368,6 +368,11 @@
   text-align: center;
 }
 
+.about-box:hover {
+  transform: scale(1.03); /* zoom in a little */
+  cursor: pointer;
+}
+
 .about-box h1 {
   font-family: 'Bree Serif', serif;
   font-size: 41px;
