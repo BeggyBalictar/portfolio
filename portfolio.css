@@ -206,6 +206,7 @@
   .star {
     position: absolute;
     bottom: -50px;
+    left: calc(100vw * var(--rand-x)); /* more dynamic placement */
     width: 2px;
     height: 2px;
     background-color: white;
@@ -218,14 +219,11 @@
   
   @keyframes moveUp {
     0% {
-      transform: translateY(100vh); /* start far below */
-      opacity: 0;
-    }
-    50% {
+      transform: translateY(0);
       opacity: 0.8;
     }
     100% {
-      transform: translateY(-30vh); /* float above */
+      transform: translateY(-120vh);
       opacity: 0;
     }
   }
