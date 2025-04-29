@@ -248,6 +248,7 @@
     max-width: 500px;
     overflow: hidden;
     transition: transform 0.5s ease, background-color 0.5s ease;
+    margin-bottom: 100px;
   }
   
   .certi-card:hover {
