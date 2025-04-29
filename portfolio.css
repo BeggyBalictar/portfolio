@@ -360,9 +360,9 @@
 }
 
 .about-box {
-  max-width: 850px;
+  max-width: 900px;
   background-color: #003747;
-  padding: 50px;
+  padding: 600px;
   border-radius: 15px;
   box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);
   text-align: center;
@@ -370,14 +370,14 @@
 
 .about-box h1 {
   font-family: 'Bree Serif', serif;
-  font-size: 40px;
+  font-size: 42px;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .about-para {
-  font-size: 20px;
-  line-height: 1.8;
+  font-size: 22px;
+  line-height: 1.9;
   color: white;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
