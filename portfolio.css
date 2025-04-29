@@ -210,7 +210,7 @@
     height: 4px;
     background-color: white;
     border-radius: 100%;
-    opacity: 0.8;
+    opacity: 0.9;
     box-shadow: 0 0 8px white;
     animation: moveUp 10s linear infinite;
     z-index: -1;
