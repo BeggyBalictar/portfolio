@@ -335,3 +335,13 @@
   transform: translateY(-5px);
   box-shadow: 0 0 20px #31b3da, 0 0 40px #31b3da;
 }
+
+.paragraph2 {
+  margin-top: 25px; /* Adds space top of the paragraph */
+  line-height: 1.8; /* Adjusts the spacing between lines */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 25px;
+}
