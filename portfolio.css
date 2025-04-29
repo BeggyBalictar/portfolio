@@ -292,11 +292,11 @@
 
 .contact-form {
   background: #0a0f2c;
-  padding: 30px 30px 25px 30px;
+  padding: 30px 30px 50px 30px; /* Increased bottom padding */
   border: 2px solid #31b3da;
   border-radius: 10px;
   max-width: 600px;
-  margin: 0;
+  margin: 0 auto;
   box-shadow: 0 0 20px #31b3da;
 }
 
