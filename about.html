@@ -13,6 +13,9 @@
     <div class="topnav">
         <a href="index.html" class="logo">
           <img src="images/logo.png" alt="Beggy Logo" class="logo-img"></a>
+          <div class="collapse-icon"> 
+          <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+          </div> 
           <div class="nav-links">
           <a class="active" href="#about">About</a>
           <a href="tech.html">Tech Stack</a>
@@ -34,6 +37,13 @@
           My interest in web development and cybersecurity started with curiosity wondering how websites work and how online systems stay safe. I like exploring new things and finding ways to fix or improve problems. Even though I still have a lot to learn, I’m excited to keep growing and hopefully build things that are helpful to others. I believe that with patience, effort, and the right mindset, I’ll be able to find where I fit in the tech field.
         </p>
       </div>
+
+      <script>
+        function toggleMenu() {
+          var nav = document.getElementById("navLinks");
+          nav.classList.toggle("show");
+        }
+      </script>
 
   <script>
     const starCount = 200;

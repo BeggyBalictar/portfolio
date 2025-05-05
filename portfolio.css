@@ -186,7 +186,7 @@
     transition: transform 0.3s, background-color 0.3s;
     width: 130px;
     height: 150px;
-    box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);;
+    box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);
   }
   
   .tech-card:hover {
@@ -387,4 +387,71 @@
   line-height: 1.8;
   color: white;
   margin-bottom: 20px;
+}
+
+@media(max-width: 1024px){
+  
+}
+
+@media(max-width: 768px){
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #003747;
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    width: 130px;
+    text-align: center;
+    border-radius: 18px;
+    padding: 0px 0;
+    border: 0 0 25px rgba(49, 179, 218, 0.6);
+  }
+
+  .nav-links.show {
+    display: flex;
+    gap: 5px;      
+  }
+
+  .hamburger {
+    display: block;
+    margin-right: 20px;
+    max-width: 70%;
+    width: 30px;
+  }
+
+  .menu .hamburger{
+    display: block;
+    margin-right: 20px;
+    max-width: 70%;
+    width: 70px;
+  }
+
+  .topnav .nav-links a {
+    color:#3b2f42;     
+    font-size: 0.9rem;
+    height: 20px;
+  }
+
+  .topnav .nav-links a.active {
+    background-color: #06768d;
+    color: white;
+  }
+  
+}
+
+@media(max-width: 480px){
+.button-group{
+  display: flex;
+  flex-direction: column;
+}  
+
+.profile-pic {
+  width: 210px;
+  height: 210px;
+}
+.container {
+  flex-direction: column;
+}
+
 }
