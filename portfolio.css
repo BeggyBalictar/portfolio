@@ -11,16 +11,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
     padding-top: 80px; /* space below fixed nav */
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     color: white;
     font-family: 'Lato', sans-serif;
-    position: relative;
+    position: relative; 
     text-align: center;
-    overflow-y: auto;
     overflow-x: hidden;
   }
+
+  .contact-container {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
 
   .paragraph {
     margin-top: 25px; /* Adds space top of the paragraph */
@@ -389,69 +395,51 @@
   margin-bottom: 20px;
 }
 
-@media(max-width: 1024px){
+@media (max-width: 1024px) {
   
 }
 
-@media(max-width: 768px){
+@media (max-width: 768px) {
   .nav-links {
-    display: none;
+    display: none; /* hide by default in mobile */
     flex-direction: column;
     background-color: #003747;
     position: absolute;
-    top: 70px;
-    right: 50px;
-    width: 130px;
-    text-align: center;
-    border-radius: 18px;
-    padding: 0px 0;
-    border: 0 0 25px rgba(49, 179, 218, 0.6);
+    top: 60px;
+    right: 20px;
+    width: 160px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 2;
   }
 
   .nav-links.show {
-    display: flex;
-    gap: 5px;      
+    display: flex; /* show when toggled */
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+    padding: 10px 15px;
+    color: white;
+    width: 100%;
+    display: block;
+  }
+
+  .collapse-icon {
+    display: block; /* show hamburger only on small screens */
   }
 
   .hamburger {
-    display: block;
-    margin-right: 20px;
-    max-width: 70%;
-    width: 30px;
-  }
-
-  .menu .hamburger{
-    display: block;
-    margin-right: 20px;
-    max-width: 70%;
-    width: 70px;
-  }
-
-  .topnav .nav-links a {
-    color:#3b2f42;     
-    font-size: 0.9rem;
-    height: 20px;
-  }
-
-  .topnav .nav-links a.active {
-    background-color: #06768d;
+    font-size: 28px;
     color: white;
+    cursor: pointer;
   }
-  
-}
 
-@media(max-width: 480px){
-.button-group{
-  display: flex;
-  flex-direction: column;
-}  
-
-.profile-pic {
-  width: 210px;
-  height: 210px;
-}
-.container {
-  flex-direction: column;
-}
-
+  .topnav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
 }
