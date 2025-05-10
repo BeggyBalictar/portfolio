@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 80px; /* space below fixed nav */
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     color: white;
@@ -19,6 +19,34 @@
     position: relative; 
     text-align: center;
     overflow-x: hidden;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    text-align: center;
+    padding: 30px 10px;
+  }
+
+  .tech-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    text-align: center;
+  }
+
+  .certi-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    text-align: center;
   }
 
   .contact-container {
@@ -51,9 +79,17 @@
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     box-shadow: 0 2px 5px #065465;
+    z-index: 1;
   }
 
   h1 {
+    font-family: "Bree Serif", serif;
+    font-size: 45px;
+    margin-top: 18px;
+    text-align: center;
+  }
+
+  h2 {
     font-family: "Bree Serif", serif;
     font-size: 45px;
     margin-top: 18px;
@@ -71,6 +107,10 @@
     height: 50px; /* adjust size */
     width: auto;
     display: block; /* removes bottom gap */
+  }
+
+  .nav-links {
+    display: flex;
   }
   
   /* Navigation links on the right */
@@ -238,42 +278,58 @@
   }
 
   .certi {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 25px;
-    margin: 40px 20px;
-    padding: 10px 70px;
-    justify-items: center;
-    width: 100%;
-    z-index: 1;
-  }
-  
-  .certi-card {
-    background-color: #003747;
-    border-radius: 20px;
-    padding: 15px;
-    margin-top: 30px;
-    box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);;
-    max-width: 500px;
-    overflow: hidden;
-    transition: transform 0.5s ease, background-color 0.5s ease;
-  }
-  
-  .certi-card:hover {
-    transform: scale(1.25);
-    background-color: #31b3da;
-  }
-  
-  .certi-img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-    transition: transform 0.5s ease, border 0.5s ease;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
   }
 
-  .certi-card:hover .certi-img {
-    transform: scale(1.03);
-    border: 300px;
+  .container, .row {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+  }
+
+  .certi-card {
+    background-color: #003747;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    cursor: pointer;
+    flex: 1 1 300px;
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+.certi-card:hover {
+  transform: translateY(-8px);
+  background-color: #31b3da;
+}
+
+.certi-img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 15px;
+  display: block;
+}
+  
+  /* Modal styling */
+  .modal-content {
+    background: rgba(0, 0, 0, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .modal-body img {
+    max-height: 80vh;
+    object-fit: contain;
   }
 
   .social-button {
@@ -362,13 +418,6 @@
   margin-bottom: 25px;
 }
 
-.about-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 20px;
-}
-
 .about-box {
   max-width: 850px;
   background-color: #003747;
@@ -397,8 +446,70 @@
   margin-bottom: 20px;
 }
 
+/* Tablet: Stack text better and adjust spacing */
 @media (max-width: 1024px) {
-  
+  .container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+  }
+
+  .certi-container {
+    margin-top: 40px; 
+    padding-top: 20px;
+  }
+}
+
+/* Mobile: Stack fully, scale down image and text */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+
+  .right-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-section {
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .certi-container {
+    margin-top: 30px;
+    padding-top: 15px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -418,7 +529,6 @@
 
   .nav-links.show {
     display: flex; /* show when toggled */
-    gap: 10px;
   }
 
   .nav-links a {
@@ -434,6 +544,7 @@
   }
 
   .hamburger {
+    display: block;
     font-size: 28px;
     color: white;
     cursor: pointer;
@@ -443,5 +554,34 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px 15px;
+    z-index: 2;
+  }
+  .about-container,
+  .tech-container,
+  .certi-container {
+    padding: 20px 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .certi {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .certi-card {
+    padding: 12px;
+    max-width: 100%;
+  }
+
+  .tech-card {
+    width: 100px;
+    height: 120px;
+    padding: 15px;
+  }
+
+  .tech-card p {
+    font-size: 14px;
   }
 }
