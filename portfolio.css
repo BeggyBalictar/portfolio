@@ -346,6 +346,9 @@
     transition: all 0.3s ease;
     box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);
     display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
     margin-bottom: 30px;
 }
 .social-icon {
@@ -355,7 +358,7 @@
 
 .social-button:hover {
     transform: scale(1.03); /* zoom in a little */;
-    background: #003747;
+    background: #31b3da;
     color: white;
     box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);
 }
@@ -402,7 +405,7 @@
 }
 
 .contact-form button:hover {
-  background: black;
+  background: #31b3da;
   transform: scale(1.03); /* zoom in a little */
   color: white;
   box-shadow: 0 0 25px rgba(49, 179, 218, 0.6);
