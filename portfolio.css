@@ -458,6 +458,10 @@ button:hover {
   margin-bottom: 20px;
 }
 
+.collapse-icon {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   .container {
     flex-direction: column;
@@ -549,11 +553,6 @@ button:hover {
     color: white;
     width: 100%;
     display: block;
-  }
-
-  .collapse-icon {
-    display: block;
-    /* show hamburger only on small screens */
   }
 
   .hamburger {
