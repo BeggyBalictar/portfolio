@@ -1,11 +1,9 @@
-/* Reset default spacing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
   
-  /* Overall page styling */
 body {
     display: flex;
     flex-direction: column;
@@ -65,7 +63,6 @@ body {
     padding-right: 25px;
 }
 
-  /* Navigation bar */
 .topnav {
     background-color: #003747;
     display: flex;
@@ -96,7 +93,6 @@ h2 {
     text-align: center;
 }
   
-  /* Logo on the left */
 .logo {
     text-decoration: none;
     display: inline-block;
@@ -113,7 +109,6 @@ h2 {
     display: flex;
 }
   
-  /* Navigation links on the right */
 .nav-links a {
     text-decoration: none;
     color: white;
@@ -133,7 +128,6 @@ h2 {
     transform: none;
 }
   
-  /* Centered content container */
 .container {
     display: flex;
     z-index: 1;
@@ -169,14 +163,13 @@ h2 {
     text-align: left;
 }
   
-  /* Buttons */
 .button-group {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-  }
+}
   
 button {
     background-color: transparent;
@@ -201,7 +194,6 @@ button:hover {
     transition: all 0.5s ease; /* smooth animation */ 
 }
   
-  /* Profile picture */
 .profile-pic {
     width: 325px;
     height: 325px;
@@ -323,7 +315,6 @@ button:hover {
   display: block;
 }
   
-  /* Modal styling */
 .modal-content {
     background: rgba(0, 0, 0, 0.95);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -448,7 +439,6 @@ button:hover {
   margin-bottom: 20px;
 }
 
-/* Tablet: Stack text better and adjust spacing */
 @media (max-width: 1024px) {
   .container {
     flex-direction: column;
@@ -479,7 +469,6 @@ button:hover {
   }
 }
 
-/* Mobile: Stack fully, scale down image and text */
 @media (max-width: 600px) {
   .container {
     flex-direction: column;
