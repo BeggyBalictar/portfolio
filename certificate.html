@@ -61,51 +61,8 @@
       </div>
     </div>  
 
-    <script>
-      function toggleMenu() {
-        var nav = document.getElementById("navLinks");
-        nav.classList.toggle("show");
-      }
-    </script>
-    
-    <script>
-        const starCount = 200;
-      
-        for (let i = 0; i < starCount; i++) {
-          const star = document.createElement("div");
-          star.classList.add("star");
-      
-          // Random horizontal position
-          star.style.left = Math.random() * 100 + "vw";
-      
-          // Random size between 1px and 5px
-          const size = Math.random() * 4 + 1;
-          star.style.width = size + "px";
-          star.style.height = size + "px";
-      
-          // Random animation duration and delay
-          star.style.animationDuration = (5 + Math.random() * 15) + "s";
-          star.style.animationDelay = Math.random() * 12 + "s";
-      
-          document.body.appendChild(star);
-        }
-      </script>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const modal = new bootstrap.Modal(document.getElementById('certificateModal'));
-    const modalImage = document.getElementById('modalCertificateImage');
-
-    document.querySelectorAll('.certi-card img').forEach(img => {
-      img.addEventListener('click', () => {
-        modalImage.src = img.src;
-        modal.show();
-      });
-    });
-  });
-</script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
 
 </body>
 </html>
