@@ -581,6 +581,10 @@ button:hover {
     gap: 15px;
     padding: 0 10px;
   }
+
+  .collapse-icon {
+    display: block;
+  }
 }
 
 @media (max-width: 480px) {
