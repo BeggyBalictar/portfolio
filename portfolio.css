@@ -529,7 +529,6 @@ button:hover {
 @media (max-width: 768px) {
   .nav-links {
     display: none;
-    /* hide by default in mobile */
     flex-direction: column;
     background-color: #003747;
     position: absolute;
@@ -543,8 +542,7 @@ button:hover {
   }
 
   .nav-links.show {
-    display: flex;
-    /* show when toggled */
+    display: block;
   }
 
   .nav-links a {
